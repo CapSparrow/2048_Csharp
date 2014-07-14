@@ -34,6 +34,32 @@ namespace TZFE
         private void Form1_Load(object sender, EventArgs e)
         {
             GameBegin();
+            this.Size = new Size(728, 452);
+            panel1.Size = new Size(401, 400); panel1.Location = new Point(12, 38);
+            pictureBox5.Size = new Size(80, 80); pictureBox5.Location = new Point(14, 14);
+            pictureBox6.Size = new Size(80, 80); pictureBox6.Location = new Point(111, 14);
+            pictureBox7.Size = new Size(80, 80); pictureBox7.Location = new Point(207, 14);
+            pictureBox8.Size = new Size(80, 80); pictureBox8.Location = new Point(305, 14);
+            pictureBox9.Size = new Size(80, 80); pictureBox9.Location = new Point(14, 114);
+            pictureBox10.Size = new Size(80, 80); pictureBox10.Location = new Point(111, 114);
+            pictureBox11.Size = new Size(80, 80); pictureBox11.Location = new Point(207, 114);
+            pictureBox12.Size = new Size(80, 80); pictureBox12.Location = new Point(305, 114);
+            pictureBox13.Size = new Size(80, 80); pictureBox13.Location = new Point(14, 212);
+            pictureBox14.Size = new Size(80, 80); pictureBox14.Location = new Point(111, 212);
+            pictureBox15.Size = new Size(80, 80); pictureBox15.Location = new Point(207, 212);
+            pictureBox16.Size = new Size(80, 80); pictureBox16.Location = new Point(305, 212);
+            pictureBox17.Size = new Size(80, 80); pictureBox17.Location = new Point(14, 308);
+            pictureBox18.Size = new Size(80, 80); pictureBox18.Location = new Point(111, 308);
+            pictureBox19.Size = new Size(80, 80); pictureBox19.Location = new Point(207, 308);
+            pictureBox20.Size = new Size(80, 80); pictureBox20.Location = new Point(305, 308);
+            pictureBox4.Size = new Size(80, 20); pictureBox4.Location = new Point(3, 3);
+            pictureBox1.Size = new Size(30, 20); pictureBox1.Location = new Point(695, 3);
+            pictureBox2.Size = new Size(30, 20); pictureBox2.Location = new Point(659, 3);
+            panel3.Size = new Size(288, 212); panel3.Location = new Point(428, 38);
+            panel2.Size = new Size(251, 180); panel2.Location = new Point(19, 15);
+            pictureBox3.Size = new Size(162, 22); pictureBox3.Location = new Point(46, 131);
+            panel6.Size = new Size(288, 182); panel6.Location = new Point(428, 256);
+            textBox17.Size = new Size(251, 155); textBox17.Location = new Point(19, 15);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
